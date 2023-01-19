@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.banner .banner-content {
+  width: 35%;
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.nav button {
+  margin-left: 50px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  min-width: 92px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding: 6px 24px 5px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  font: bold 16px / 24px 'Arial', sans-serif;
+  padding: 12px 40px;
+  transition: .2s all;
+  border: 2px solid #FF9900;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #FF9900;
+  background: #FFF;
+  color: #222;
+}
+
+.nav .sign-in--bttn :hover {
+  background: #FF9900;
+  transition: 1s;
+}
+
+.nav {
+  gap: 48px;
+}
+
+.nav a {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B365D;
+}
+
+.nav a:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.header-logo {
+  margin-top: 16px;
+}
+
+.header-logo:hover {
+  transform: scale(0.7);
+  transition: 2s;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #F7F7F7;
+  padding-top: 100px;
+  overflow-x: hidden;
+}
+
+
+.container {
+  padding: 0 15px;
+  max-width: 1230px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+h2 {
+  margin: 0 auto 40px;
+  text-align: center;
+  max-width: 540px;
+  width: 100%;
+}
+
+.card-list-item {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
+
+  grid-gap: 40px;
+  margin-bottom: 70px;
+}
+
+.card-list-item img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+
+.card-list-item h3 {
+  margin-bottom: 16px;
+}
+
+.sign-in--bttn {
+  background: #FFFFFF;
+}
+
+.log-into--bttn {
+  background: #FF9900;
+}
+
+.section {
+  margin: 100px 0;
+}
+
+.section-tools {
+  position: relative;
+  padding-bottom: 75px;
+}
+
+.section-tools .container {
+  position: relative;
+  z-index: 1;
+}
+
+.section-tools:after {
+  position: absolute;
+  content: '';
+  width: 2210px;
+  height: 390px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url("/img/bg.png") center no-repeat;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1200px;
+  height: 495px;
+}
+
+.banner {
+  background-size: cover;
+  background-image: url("../img/Image.png");
+  padding: 195px 0 188px;
+  margin-bottom: 110px;
+}
+
+.banner .banner-content {
+  width: 35%;
+  position: relative;
+}
+
+.get-started {
+  width: 180px;
+  height: 50px;
+  background: #FF9900;
+  border-radius: 4px;
+}
+
+button a:hover {
+  color: #765297;
+}
+
+
+
