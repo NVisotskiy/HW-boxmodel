@@ -98,11 +98,15 @@ body {
 
 
 .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   padding: 0 15px;
   max-width: 1230px;
   margin: 0 auto;
   z-index: 1;
   position: relative;
+  gap: 56px;
 }
 
 h2 {
@@ -174,22 +178,19 @@ li {
   background: url("/img/bg.png") center no-repeat;
 }
 
-.banner {
-  width: 100%;
-  max-width: 1200px;
-  height: 495px;
-}
-
-.banner {
-  background-size: cover;
-  background-image: url("../img/Image.png");
-  padding: 195px 0 188px;
-  margin-bottom: 110px;
-}
-
-.banner .banner-content {
+.banner title {
   width: 35%;
   position: relative;
+  margin-bottom: 0;
+}
+
+.banner-content {
+  max-width: 500px;
+  width: 100%;
+  padding-top: 136px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .get-started {
