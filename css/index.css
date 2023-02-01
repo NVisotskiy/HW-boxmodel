@@ -23,6 +23,7 @@ a {
   position: relative;
 }
 
+
 .d-flex {
   display: flex;
 }
@@ -34,6 +35,8 @@ a {
 .align-items-center {
   align-items: center;
 }
+
+
 
 .nav button {
   margin-left: 50px;
@@ -284,13 +287,36 @@ li p {
   flex-direction: row;
   margin: 0 auto;
   gap: 130px;
+
 }
 
 .footer1 {
-  max-width: 180px;
-  width: 100%;
-  max-height: 50px;
-  height: 100%;
-  margin: 0 auto;
+  
+  
 }
+
+.footer__stuff h3 {
+  padding-bottom: 30px;
+}
+
+.footer__links h3 {
+  padding-bottom: 30px;
+}
+
+.footer__number {
+  display: flex;
+  align-items: started;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__number h3 {
+  padding-bottom: 30px;
+}
+
+.footer__number h3 {
+  padding-bottom: 30px;
+  max-width: 280px;
+}
+
 
