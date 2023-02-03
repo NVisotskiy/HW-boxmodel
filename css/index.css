@@ -53,7 +53,6 @@ a {
 
 button {
   display: block;
-  margin: 0 auto;
   border-radius: 4px;
   font: bold 16px / 24px 'Arial', sans-serif;
   padding: 12px 40px;
@@ -67,6 +66,12 @@ button:hover {
   background: #FFF;
   color: #222;
 }
+
+.sign-up__2block {
+  margin: 0 auto;
+}
+
+
 
 .nav .sign-in--bttn :hover {
   background: #FF9900;
@@ -291,8 +296,7 @@ li p {
 }
 
 .footer1 {
-  
-  
+
 }
 
 .footer__stuff h3 {
@@ -305,9 +309,11 @@ li p {
 
 .footer__number {
   display: flex;
-  align-items: started;
   justify-content: center;
   flex-direction: column;
+  max-width: 340px;
+  width: 100%;
+  gap: 30px;
 }
 
 .footer__number h3 {
